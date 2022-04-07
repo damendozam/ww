@@ -16,14 +16,6 @@
         "env": []
     },
     {
-        "id": "58f8e0ccd3eadd44",
-        "type": "tab",
-        "label": "Flow 4",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "3a85a01360579e54",
         "type": "inject",
         "z": "d613c00e45247162",
@@ -75,23 +67,6 @@
         "uncaught": false,
         "x": 410,
         "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "26cc84959ebe0d96",
-        "type": "function",
-        "z": "58f8e0ccd3eadd44",
-        "name": "",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 360,
-        "y": 260,
         "wires": [
             []
         ]
