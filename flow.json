@@ -16,6 +16,14 @@
         "env": []
     },
     {
+        "id": "fb8dd2994e30f13f",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3a85a01360579e54",
         "type": "inject",
         "z": "d613c00e45247162",
@@ -67,6 +75,33 @@
         "uncaught": false,
         "x": 410,
         "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f756bc13f36c98c",
+        "type": "inject",
+        "z": "fb8dd2994e30f13f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 440,
+        "y": 140,
         "wires": [
             []
         ]
