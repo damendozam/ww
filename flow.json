@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "c4b6990d00587f9d",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3a85a01360579e54",
         "type": "inject",
         "z": "d613c00e45247162",
@@ -49,5 +57,18 @@
         "x": 330,
         "y": 160,
         "wires": []
+    },
+    {
+        "id": "2d0699b5fff33237",
+        "type": "complete",
+        "z": "c4b6990d00587f9d",
+        "name": "",
+        "scope": [],
+        "uncaught": false,
+        "x": 410,
+        "y": 160,
+        "wires": [
+            []
+        ]
     }
 ]
